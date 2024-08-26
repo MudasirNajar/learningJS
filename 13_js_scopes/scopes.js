@@ -14,14 +14,14 @@
 
 // function one() {
 //     const username = "Dennis Ritchie";
-    
+
 //     function two() {
 //         const website = "apple inc";
 //         console.log(username);
 //     }
 
 //     // console.log(website);
-    
+
 //     two();
 // }
 
@@ -33,15 +33,15 @@
 // JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables, classes, 
 // or imports to the top of their scope, prior to execution of the code.
 
-console.log(addOne(5));
-function addOne(num) {
-return num + 1;
-}
+// console.log(addOne(5));
+// function addOne(num) {
+//     return num + 1;
+// }
 
 
-// console.log();
-addTwo(10)
-let addTwo = function(num) {
-    return num + 2;
-}
+// // console.log();
+// addTwo(10)  // Hoisting doesn't work for function refernces
+// let addTwo = function (num) {
+//     return num + 2;
+// }
 
