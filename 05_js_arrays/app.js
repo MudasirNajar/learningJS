@@ -81,6 +81,11 @@ let employees = [
     }
 ]
 
+
+// const softwareDevelopers = employees.filter((employee) => employee.designation == "Software Developer");
+// console.log(softwareDevelopers);
+
+
 // console.log(employees);
 
 // console.log(employees[1]);
@@ -121,11 +126,11 @@ let employees = [
 // console.log(jrEmployess);
 
 
-// let softwareDevelopers = employees.filter(function(employee) {
-//     return employee.designation === "Software Developer";
-// });
+let softwareDevelopers = employees.filter(function (employee) {
+    return employee.designation === "Software Developer";
+});
 
-// console.log(softwareDevelopers);
+console.log(softwareDevelopers);
 
 
 
